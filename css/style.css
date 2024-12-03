@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* <-- comienso de mi header -->*/
+.header{
+    width: 100%;
+    background-color: #000;
+
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.container .navegacion > a{
+    color: white;
+    text-decoration:none;
+    padding-left: 2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.navegacion a:hover{
+    color: rgb(43, 74, 100);
+}
+
+/* <-- fin de mi header>-- */
