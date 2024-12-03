@@ -29,3 +29,47 @@
 }
 
 /* <-- fin de mi header>-- */
+
+/* <-- hero--> */
+
+.hero{
+    background-image: url(../img/hero1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    
+}
+.padre{
+    position:relative;
+}
+.presentacion{
+    color: white;
+    padding-top: 5em;
+
+}
+.presentacion h1{
+    font-family: 'Times New Roman', Times, serif ;
+    font-size: 50px;
+
+}
+.presentacion p{
+    font-size: 20px;
+    font-family:sans-serif;
+    color: aqua;
+}
+
+.btn{
+    margin-top: 20px;
+    color: teal;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10%;
+}
+.capa{
+    position:absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0,5);
+}
